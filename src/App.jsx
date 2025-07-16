@@ -51,6 +51,9 @@ function App() {
       show ? <Detail/> : ''
     }
     
+    <button onClick={ () => {
+      setShow(true);
+    }}>버튼</button>
 
    </div>
   )
